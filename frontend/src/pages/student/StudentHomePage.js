@@ -126,10 +126,16 @@ const Title = styled.p`
   font-size: 1.25rem;
 `;
 
-const Data = styled(CountUp)`
-  font-size: calc(1.3rem + .6vw);
+const DataWrapper = styled.div`
+  font-size: calc(1.3rem + 0.6vw);
   color: green;
 `;
+
+const Data = ({ end }) => (
+  <DataWrapper>
+    <CountUp end={end} duration={2} />
+  </DataWrapper>
+);
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Grid, Box, Button } from '@mui/material';
 import styled from 'styled-components';
-import Students from "../assets/students.svg";
+import Students from "../assets/students2.jpg";
 import { LightPurpleButton } from '../components/buttonStyles';
 
 const Homepage = () => {
@@ -16,15 +16,15 @@ const Homepage = () => {
                     <StyledPaper elevation={3}>
                         <StyledTitle>
                             Welcome to
-                            <br />
-                            School Management
-                            <br />
+                            
+                            University Management
+                            
                             System
                         </StyledTitle>
                         <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
-                            Seamlessly track attendance, assess performance, and provide feedback.
-                            Access records, view marks, and communicate effortlessly.
+                            🎓 Simplify university management with smart class organization, 
+                            effortless student and faculty onboarding, attendance tracking, performance analytics, and instant feedback — 
+                            all in one place. Stay connected, track progress, and manage records with ease.
                         </StyledText>
                         <StyledBox>
                             <StyledLink to="/choose">
